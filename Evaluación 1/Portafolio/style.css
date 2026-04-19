@@ -8,12 +8,12 @@
 
 :root {
     /* Paleta de colores */
-    --color-primary: #2c3e50;      /* Azul oscuro para header/footer */
-    --color-secondary: #34495e;    /* Azul medio para sidebar */
-    --color-accent: #3498db;       /* Azul claro para botones/enlaces */
-    --color-bg: #f8fafc;           /* Fondo general muy claro */
-    --color-text: #1e293b;         /* Color de texto principal */
-    --color-muted: #64748b;        /* Color de texto secundario */
+    --color-primary: #2c3e50;     
+    --color-secondary: #34495e;    
+    --color-accent: #3498db;       
+    --color-bg: #f8fafc;           
+    --color-text: #1e293b;         
+    --color-muted: #64748b;        
     --color-white: #ffffff;
     --color-border: #e2e8f0;
 
@@ -57,7 +57,7 @@ body {
     border-radius: 50%;
     border: 2px solid var(--color-white);
     object-fit: cover;
-    background-color: #4a6a8a; /* Color de respaldo si no hay imagen */
+    background-color: #4a6a8a; 
 }
 
 .logo-text {
@@ -299,7 +299,7 @@ tr:hover {
 }
 
 /* ====================== */
-/* SECCIÓN PROYECTOS (GRID) */
+/* SECCIÓN PROYECTOS */
 /* ====================== */
 .proyectos__grid {
     display: grid;
@@ -431,6 +431,7 @@ tr:hover {
     background-color: var(--color-primary);
 }
 
+
 .footer {
     background-color: var(--color-primary);
     color: var(--color-white);
@@ -469,11 +470,7 @@ tr:hover {
     color: #bdc3c7;
 }
 
-/* ====================== */
-/* DISEÑO RESPONSIVO      */
-/* ====================== */
 
-/* Tablet: max-width 768px */
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -513,7 +510,6 @@ tr:hover {
     }
 }
 
-/* Móvil: max-width 480px */
 @media (max-width: 480px) {
     .logo-text {
         font-size: 1.4rem;
