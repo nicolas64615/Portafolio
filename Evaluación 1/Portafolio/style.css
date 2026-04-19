@@ -469,3 +469,93 @@ tr:hover {
     color: #bdc3c7;
 }
 
+/* ====================== */
+/* DISEÑO RESPONSIVO      */
+/* ====================== */
+
+/* Tablet: max-width 768px */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .header__logo {
+        margin-bottom: 1rem;
+    }
+    .navbar__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .sobre-mi__contenedor {
+        flex-direction: column;
+    }
+    .sobre-mi__perfil {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .habilidades__contenedor {
+        flex-direction: column;
+    }
+
+    .proyectos__grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    main {
+        padding: 1rem 1.5rem;
+    }
+    .seccion {
+        padding: 2rem 0;
+        scroll-margin-top: 100px;
+    }
+}
+
+/* Móvil: max-width 480px */
+@media (max-width: 480px) {
+    .logo-text {
+        font-size: 1.4rem;
+    }
+    .navbar__list {
+        gap: 0.5rem;
+    }
+    .navbar__link {
+        font-size: 1rem;
+        padding: 0.4rem 0.5rem;
+    }
+
+    .seccion__titulo {
+        font-size: 1.8rem;
+    }
+    .sobre-mi__info h3 {
+        font-size: 1.6rem;
+    }
+    .perfil-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+    th, td {
+        padding: 0.6rem;
+    }
+
+    .contacto__contenedor {
+        padding: 1.5rem;
+    }
+
+    .footer__redes {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    main {
+        padding: 0.5rem 1.2rem;
+    }
+}
+
